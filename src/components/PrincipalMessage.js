@@ -8,7 +8,7 @@ const PrincipalMessage = () => {
       <Row>
         <Col md={6} className="d-flex align-items-top">
           <Image
-            src="http://davbsp.org/File/6707/Message_75df670d-15c1-4b79-a626-430821a81543_PRINCIPAL.jpg"
+            src="/images/Principle.jpg"
             style={{
               // width: '50%',
               // height: '50%',
