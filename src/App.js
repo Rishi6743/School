@@ -11,6 +11,9 @@ import HomePage from './pages/HomePage';
 import About from './pages/About';
 import SchoolFeeStructure from './pages/FeeStructure';
 import Home from './pages/Home';
+import PhotoGallery from './pages/PhotoGallery';
+import Faculty from './pages/Faculty';
+import TeachingFaculty from './pages/TeachingFaculty';
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/about" element={<About/>}/>
         <Route exact path="/schoolfeeStructure" element={<SchoolFeeStructure/>}/>
+        <Route exact path="/photogallery" element={<PhotoGallery/>}/>
+        <Route exact path="/faculty" element={<Faculty/>}/>
+        <Route exact path="/teachingfaculty" element={<TeachingFaculty/>}/>
        </Routes>
        
       

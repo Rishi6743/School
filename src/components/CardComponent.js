@@ -26,6 +26,10 @@ const CardComponent = () => {
       title: 'Notice Board',
       path: '/notice-board',
     },
+    {
+      title: 'Photo Gallery',
+      path: '/photogallery',
+    },
   ];
 
   const handleCardClick = (index) => {
