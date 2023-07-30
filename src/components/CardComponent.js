@@ -41,7 +41,7 @@ const CardComponent = () => {
               <Card
                 style={{ cursor: "pointer", borderRadius: "10px" }}
                 className={`shadow-lg bg-dark text-white`}
-                style={{ cursor: "pointer"}}
+                // style={{ cursor: "pointer"}}
                 onClick={() => handleCardClick(index)}
               >
                 <Card.Body>
